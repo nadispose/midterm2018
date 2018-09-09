@@ -23,53 +23,111 @@ A. Class is a framework/blueprint for objects to be created of class type
 What is object?
 A. object is an instance of class
 What is the entry point of an application?
-A. Main(
+A. Main()
 Why main is static?
+A. Main is static so JVM can call it without an object of the method existing.
 Which class is the superclass of all classes?
+A. Object class is the superclass of all class
 What is difference between path and classpath variables?
+A. Path is used by the operating system/computer to locate java/java libraries while classpath is used by compiler to run classes
 What is the difference between an Interface and Abstract class?
+A. Abstract class can never be instantiated and contains abstract methods.
+Abstract classes are models for other classes to implement.
+Interfaces contain method models and constant variables
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. No you cannot. You implement interface methods and extend abstract classes and create a concrete class.
 what is Access Specifier?
+A. Can be public or private, determine who is allowed to access methods/data.
 What is OOP ? Define each feature of java OOP.
+A.  Object-oriented programming. You program based on objects, which are classes.
+ JAVA feature is encapsulation- data hiding, inheritance- inherit from parent/super class,
+ polymorphism- child class refers to parent class & method overload ,
+ abstraction- use abstract classes to extend and create concrete classes
 What is Java Package and which package is imported by default?
+A. Package is namespace for related classes/interface. Packages imported by default is noname package, java langauage package and current file package.
 What is API? Name list of API that you have used so far.
+A. Application program interface provides programmers with tools/protocols/access needed to build software
 Does java support multiple inheritance, explain why or why not?
+A. No, because need for simplicity and java will confuse which parent class method to use.
 What is method overloading and when it happens?
+A. Method overloading is when a method uses different parameters, happens when more or less arguements are used
 Explain exceptions in java and how to handle it.
+A. exceptions are declared events, and you can use exception handling to stop program
 What is static keyword in java? How it has been used in variables and methods ?
+A. Static is a keyword, it denotes that you can access method/variable without creating object.
 What is final and how it has been used variables and methods?
+A. final keyword, is a restriction that makes sure you cannot change value/overide method
 What is final, finally and finalize?
+A. final keyword cannot change value/override. Finally used in blocks to execute code and make system messages.
+finalize- called when garbage collection occurs, when no references made to object
 What is a constructor ?
+A. constructor is used to create instance of a class, intialize object
 Can we have multiple constructors in a class?
+A. yes you can
 If we don't have a constructor declared, what is called during the object creation?
+A. this, implicitly calls self
 What is "this" keyword in java ?
+A. represents instance of current class
 What is "super" keyword in java? How many possible way can you use?
+A. super calls parent class, used to access methods
 What is JVM stand for ?
+A.Java virtual machine
 Is JVM platform independent?
+A. java is platform independent, can run on many systems/OSes/hardware
 What version of java are you using?
+A. jdk 10
 What is JAR stand for ?
+A. Java Archive
 What is the difference between JDK and JVM?
+A. jdk is the development kit while jvm is a virtual machine
 What is the difference between JVM and JRE?
+A. Jvm is a virtual machine and jre is the java runtime environment.
 What is compile time and run time?
+A. compile time is when your coded is being compiled from .java to .class,
+run time is when you execute file in jvm
 What is heap?
+A. heap is memory area for objects and arrays, during runtime.
 How java manage it's memory?
+A. variables in stack, objects in heap, When reference variable is destroyed java automatically garbage collects
 What is the difference between String, StringBuffer and StringBuilder?
+A. string is a class, string buffer and string builder are mutable can change values.
 What is Singleton class?
+A. Singleton classes are class that exist for a specific purpose, limit object to one instance.
 What is Serialization and Deserialization?
+A. turn object into sequence of bytes sent in streams, deserialization is the reverse process
 when to use transient variable in java?
+A.
 Difference between while and do..while loop?
+A. while loop check exit condition then run/can be infinite loop,
+do...while is run then check exit condition is achieved.
 What is Enum?
+A. enum is enumerated type. Used to signify values such as date/month
 What is Iterator?
+A. iterator is a variable used to count
 Which one will take more memory, an int or Integer?
+A. Integer is class, int is primitive. integer takes more memory.
 Why is String Immutable in Java?
+A. Strings are immutable for security reasons
 What is constructor chaining in Java?
+A. Calling one constructor from inside another constructor
 The difference between Serial and Parallel Garbage Collector?
+A. Serial is single thread, parallel is multi threaded
 What is JIT stands for?
+A. Just in time,
 Explain Java Heap space and Garbage collection?
+A. Objects stored in heap for runtime,
+dereferenced objects are removed from heap during garbage collection
+garabage collection frees up space
 Can you guarantee the garbage collection process?
+A. No, it is an automatic process.
 What is the difference between stack and heap in Java?
+A. Heap space is larger than stack memory.
+Heap stores objects, stack stores variables and call stack.
 What is reflection in java and why is it useful?
+A. Code that inspects other code,it is useful because
+it allows you to get information on your interfaces/fields/methods
 what is multithreading in java?
+A. process of running multiple threads simultaneously.
 What is the use of synchronization in Java?
 What is Framework?
 What are the testing Framework available in java?
