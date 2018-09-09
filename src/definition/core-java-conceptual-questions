@@ -19,16 +19,27 @@ A. Eclipse, Intellij and many more
 Explain the entire java life cycle.
 A. Create a .java file with the source code
 what is class?
-A.
+A. Class is a framework/blueprint for objects to be created of class type
 What is object?
+A. object is an instance of class
 What is the entry point of an application?
+A. Main()
 Why main is static?
+A. Main is static so JVM can call it without an object of the method existing.
 Which class is the superclass of all classes?
+A. Object class is the superclass of all class
 What is difference between path and classpath variables?
+A. Path is used by the operating system/computer to locate java/java libraries while classpath is used by compiler to run classes
 What is the difference between an Interface and Abstract class?
+A. Abstract class can never be instantiated and contains abstract methods.
+Abstract classes are models for other classes to implement.
+Interfaces contain method models and constant variables
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. No you cannot. You implement interface methods and extend abstract classes and create a concrete class.
 what is Access Specifier?
+A. Can be public or private, determine who is allowed to access methods/data.
 What is OOP ? Define each feature of java OOP.
+A.  Object-oriented programming.
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?

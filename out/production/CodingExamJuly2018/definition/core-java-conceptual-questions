@@ -19,9 +19,11 @@ A. Eclipse, Intellij and many more
 Explain the entire java life cycle.
 A. Create a .java file with the source code
 what is class?
-A.
+A. Class is a framework/blueprint for objects to be created of class type
 What is object?
+A. object is an instance of class
 What is the entry point of an application?
+A. Main(
 Why main is static?
 Which class is the superclass of all classes?
 What is difference between path and classpath variables?
