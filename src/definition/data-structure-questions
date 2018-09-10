@@ -1,37 +1,80 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. Structured data is easier to store, process, locate and use in programs and algorithms.
 What are the various operations that can be performed on different Data Structures?
+A. search, sort, traverse, insert, delete, merge
 List out the areas in which data structures are applied extensively?
+A. database management system, artificial intelligence, graphics, numerical analysis, operating system
 what is an Array?
+A. Is indexed data collection container of a certain type such as int
 what is the difference between the Array and ArrayList?
+A. Arrays are fixed length, for primitives/objects. Arraylist are dynamic, for objects and has methods to access arraylist values.
 what is LinkedList?
+A. Linked list is a data structure where nodes have data and point to next node. The head node points to next node and last node points to null.
 How is an Array different from Linked List?
+A. Arrays are indexed while nodes are referenced. Array values are independent while linked list nodes are connected
 what is queue?
+A. data structure which is first in and first out.
 what is stack?
+A. data structure where elements are stored/taken last in first out
 what is FIFO and LIFO?
+A. First in first out and las tin first out
 what is the order of complexity?
+A. It is the big-O run time for size N. O(1), O(log(n)), O(n), O(n^2) etc;
 what is the best case to search an element from an array?
+A. Finding on first try. O(1)
 what is the worst case to search an element from an array?
+A. Having to search through every element to find, O(N), last element.
 what is tree in data structure?
+A. Tree is a hierarchical data structure that use a root node to store a data type that branches out to children node linked by parent nodes
 what is graph in data structure?
+A. Graph is when an object has a point/vertice in graph which are connected by links/edges
 what is the difference between the HashTable and HashMap?
+A. HashMaps are non synchronized can be accessed by multiple threads at once, HastTable only one thread at a time
+HashMap allows null values, HashTable does not allow null key/values.
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A. Relational database management system use B-tree.
+Network data model use graph, hierarchical data model use trees
 How HashMap works in java?
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. array index out of bounds exception is when you try to access an index that does not exist.
+For example the last index is 4 but you try to retrieve index 5.
 What are the different ways of copying an array into another array?
+A. You can create a new array equal to array. Can use Arrays.copyOf() method, System.arraycopy(), and .clone()
 What is difference between an array and a linked list?
+A. Arrays are indexed, linked list are referenced. Array values are independent while linked list nodes are connected
+Linked lists use pointer for location.
 What is DFS and BFS?
+A. Depth first search is a traversal algorithm. It means start at root and go down entire first branch,
+then second branch, until all nodes are visited.
+Breadth first search is a traversal algorithm where you search in order. Parent > Children > grandchildren
 What is Recursion?
+A. Recursion is when a method calls itself from inside itself, usually until its purpose stops.
 What are linear and non linear data Structures?
+A. Linea data structures are Array, stack, queue and linked list.
+Non-linear are trees and graphs.
 What is Big-(O)-notation?
+A. It tells how fast or slow an algorithm run time is. Big-O describes at worse complexity how much.
 Outlined different kind of sorting algorithm with time complexity?
+Bubble Sort worstcase O(n^2)
+Selection sort worstcase O(n^2)
+Insertion Sort worstcase O(n^2)
+MergeSort worstcase O(n log(n))
+Quick Sort worstcase O(n^2)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
+
+                    Access	    Insert	    Search      Remove
+  Array	            O(1)	    O(n)	    O(n)	    O(n)
+  Stack	            O(n)	    O(1)	    O(n)	    O(1)
+  Queue	            O(n)	    O(1)	    O(n)        O(1)
+  Linked List		O(n)	    O(1)	    O(n)	    O(1)
+  Hash Table	    			O(n)	    O(n)	    O(n)
+  B-Tree	        O(log(n))	O(log(n))	O(log(n))	O(log(n))
 
 
