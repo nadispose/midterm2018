@@ -69,14 +69,12 @@ Draw a table with time complexity in which it will summarize all the data struct
   c)In terms of Searching element.
   d)In terms of Removing element.
 
-                      Access	    Search	    Insertion	Deletion
+                    Access	    Insert	    Search      Remove
   Array	            O(1)	    O(n)	    O(n)	    O(n)
-  Stack	            O(n)	    O(n)	    O(1)	    O(1)
-  Queue	            O(n)	    O(n)	    O(1)	    O(1)
-  Linked List		O(n)	    O(n)	    O(1)	    O(1)
+  Stack	            O(n)	    O(1)	    O(n)	    O(1)
+  Queue	            O(n)	    O(1)	    O(n)        O(1)
+  Linked List		O(n)	    O(1)	    O(n)	    O(1)
   Hash Table	    			O(n)	    O(n)	    O(n)
   B-Tree	        O(log(n))	O(log(n))	O(log(n))	O(log(n))
-  Red-Black Tree	O(log(n))	O(log(n))	O(log(n))	O(log(n))
-  Binary Search Tree	O(n)	    O(n)	    O(n)	    O(n)
 
 
