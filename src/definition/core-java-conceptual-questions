@@ -133,11 +133,11 @@ A. synchronization in java is the ability to control multiple threads on shared 
 What is Framework?
 A. frameworks are abstract programming classes that developers can extend or use to easily develop software
 What are the testing Framework available in java?
-A. testNG, and JUnit
+A. testNG, and jUnit
 Difference between jUnit and testNG?
 A. jUnit uses object oreinted testing, and testNG use dependency testing.
 What are the dependencies for this project?
-A.
+A. ??????
 what is dependency injection in java?
 A. Dependency injection is when objects pass in dependencies externally, or dependencies are later applied through frameworks
 What is static binding and dynamic binding?
