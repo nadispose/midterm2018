@@ -1,10 +1,6 @@
 package string.problems;
 
 import java.util.Arrays;
-
-/**
- * Created by mrahman on 04/22/17.
- */
 public class Anagram
 {
 
