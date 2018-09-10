@@ -31,8 +31,8 @@ public class DuplicateWord {
         {
             total += w.length();
         }
-        System.out.println(total);
-        System.out.println(divisor);
+        /*System.out.println(total);
+        System.out.println(divisor);*/
         System.out.println("The average word length is: " + (total/divisor));
     }
 }
