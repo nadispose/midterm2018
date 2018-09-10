@@ -129,12 +129,19 @@ it allows you to get information on your interfaces/fields/methods
 what is multithreading in java?
 A. process of running multiple threads simultaneously.
 What is the use of synchronization in Java?
+A. synchronization in java is the ability to control multiple threads on shared resources
 What is Framework?
+A. frameworks are abstract programming classes that developers can extend or use to easily develop software
 What are the testing Framework available in java?
+A. testNG, and jUnit
 Difference between jUnit and testNG?
+A. jUnit uses object oreinted testing, and testNG use dependency testing.
 What are the dependencies for this project?
+A. ??????
 what is dependency injection in java?
+A. Dependency injection is when objects pass in dependencies externally, or dependencies are later applied through frameworks
 What is static binding and dynamic binding?
+A. Static binding references are done during compiler time and dynamic binding references are done during runtime.
 
 
 
